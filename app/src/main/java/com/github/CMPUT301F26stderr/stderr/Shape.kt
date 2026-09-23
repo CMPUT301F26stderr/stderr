@@ -3,5 +3,9 @@ package com.github.CMPUT301F26stderr.stderr
 abstract class Shape(
     val x: Int,
     val y: Int,
+
+
     val color: String = "red"
+
 )
+
