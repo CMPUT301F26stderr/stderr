@@ -5,7 +5,7 @@ abstract class Shape(
     val y: Int,
 
 
-    val color: String = "white"
+    val color: String = "red"
 
 )
 
