@@ -1,8 +1,8 @@
 package com.github.CMPUT301F26stderr.stderr
 
-class Circle (
+class Hexagon (
     x: Int,
     y: Int,
-    val radius: Int
+    val sideLength: Int
 
 ):Shape(x ,y)
