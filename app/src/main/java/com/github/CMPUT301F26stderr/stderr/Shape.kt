@@ -5,7 +5,11 @@ abstract class Shape(
     val y: Int,
 
 
-    val color: String = "red",
-    val taste: String = "blue"
+    var taste = "bad"
+    // val color: String = "red"
+
+    // color was added by accident previously
+    // so, in order to create a conflict, we add a taste here
+
 )
 
